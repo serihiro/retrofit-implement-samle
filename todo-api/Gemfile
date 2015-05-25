@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+
+gem 'rails', '4.2.1'
+gem 'sqlite3'
+gem 'active_model_serializers'
+
+group :development, :test do
+  gem 'pry-rails'
+  gem 'pry-byebug'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
+  gem 'annotate'
+end
+

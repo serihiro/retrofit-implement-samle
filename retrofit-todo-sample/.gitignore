@@ -1,0 +1,14 @@
+.project
+.factorypath
+.settings
+.classpath
+
+*.swp
+.DS_Store
+/target
+*.db
+*.class
+
+.idea
+.*iml
+/out
